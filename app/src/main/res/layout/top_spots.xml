@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:gravity="center">
+            <ImageView
+                android:background="@drawable/obudu"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/ivobudu"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obudu Cattle ranch"
+                android:layout_gravity="center"
+                android:id="@+id/obudu"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:gravity="center">
+            <ImageView
+                android:background="@drawable/ogbunike_four"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/ivogbunike"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ogbunike caves"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvOC"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:gravity="center">
+            <ImageView
+                android:background="@drawable/crp"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/ivcross"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cross River Park"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvCRNP"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:gravity="center">
+            <ImageView
+                android:background="@drawable/olumo"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/ivOlumo"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Olumo rock"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvOR"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:gravity="center">
+            <ImageView
+                android:background="@drawable/tinapa"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/ivTinapa"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinapa  Resort"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvTLR"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:gravity="center">
+            <ImageView
+                android:background="@drawable/yankari"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/ivYankari"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yankari Reserves"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/tvYGR"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
